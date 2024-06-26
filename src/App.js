@@ -3,6 +3,7 @@ import { a, b } from './components/Products/Products';
 import Products from './components/Products/Products';
 import { useState } from 'react';
 import CartContext from './context/CartContext';
+import Cart from "./components/Cart/Cart"
 function App() {
   // state variable
   // inc
@@ -37,6 +38,7 @@ function App() {
     <CartContext.Provider value={{ cart, increaseQuantity, decreaseQuantity}}>
       <div className="App">
         <Products  />
+        <Cart></Cart>
       </div>
     </CartContext.Provider>
   );

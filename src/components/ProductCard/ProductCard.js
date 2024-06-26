@@ -1,7 +1,7 @@
 import './ProductCard.css';
 import ReduxAddToCart from '../ReduxAddToCart';
 import { useRef, useState } from 'react';
-import logo1 from '../../assests/logo1.png';
+import logo1 from '../../assests/axolotl.png';
 function ProductCard({ product }) {
   var a = 10;
   a = a + 1;
